@@ -35,12 +35,14 @@ public class MainActivity extends AppCompatActivity {
                     TextView texth = findViewById (R.id.textH);
                     textc.setTextColor(Color.parseColor("#ff5e9cff"));//设置颜色
                     texth.setTextColor(Color.parseColor("#ff5e9cff"));//设置颜色
+                    Log.d("checkbox", "onCheckedChanged: 字体变换为蓝色");
 
                 }else{
                     TextView textc = findViewById (R.id.textC);
                     TextView texth = findViewById (R.id.textH);
                     textc.setTextColor(Color.parseColor("#272727"));//设置颜色
                     texth.setTextColor(Color.parseColor("#272727"));//设置颜色
+                    Log.d("checkbox", "onCheckedChanged: 字体变换为黑色");
                 }
             }});
         btn.setOnClickListener(new View.OnClickListener() {
@@ -53,12 +55,14 @@ public class MainActivity extends AppCompatActivity {
                 String res = String.valueOf(T_f);
                 TextView resT = findViewById (R.id.textViewRes);
                 resT.setText(res);
+                Log.d("button", "onButtonChanged: 开始转换");
             }
         });
         sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
                 //textView8
+                Log.d("seekbar", "onProgressChanged: 进度条改变");
                 TextView textV = findViewById (R.id.textView8);
                 textV.setText("当前进度条是" + progress + "/100");
 
