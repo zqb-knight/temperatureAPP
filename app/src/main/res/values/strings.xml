@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">温度转换APP</string>
+    <string name="test">clearlove</string>
+    <string name="labelC">摄氏度</string>
+    <string name="labelH">华氏度</string>
+    <string name="label">=====></string>
+    <string name="chan">转换</string>
+</resources>
