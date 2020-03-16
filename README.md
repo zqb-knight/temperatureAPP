@@ -96,3 +96,15 @@ sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
 ### 5.1 程序运行界面
 
+![](https://github.com/zqb-knight/temperatureAPP/tree/master/pic/run.png)
+
+### 5.2 调试界面
+
+![](https://github.com/zqb-knight/temperatureAPP/tree/master/pic/log.png)
+
+
+
+**Updated by zqb**
+
+**2020-3-16**
+
